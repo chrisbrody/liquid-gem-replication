@@ -10,6 +10,7 @@ body {
 /*navigation*/
 nav {
 	padding-bottom: 25px;
+	margin: 0 3%;
 }
 nav span {
 	font-size: 1.5em;
@@ -125,13 +126,14 @@ header span {
 	background-color: #2d2d2d;
 	padding: 20px 25px;
 	display: inline-block;
-	width: 96%;
+	width: 100%;
 	position: relative;
 	top: 5px;
 }
 #contact form {
 	float: left;
 	width: 450px;
+	margin-left: 3%;
 }
 #contact h3 {
 	font-family: 'Lobster', cursive;
@@ -157,6 +159,7 @@ header span {
 #social	{
 	float: right;
 	margin-top: 10%;
+	margin-right: 3%;
 }
 #social a {
 	color: #555;
@@ -169,4 +172,9 @@ header span {
     vertical-align: middle;
     border-radius: 50%;
     margin-right: 25px;
+}
+@media screen and (min-width: 1400px) {
+	#social	{
+		margin-top: 7%;
+	}
 }
